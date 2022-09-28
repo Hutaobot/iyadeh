@@ -18,8 +18,8 @@ const message = {
                 },
                 {
                     urlButton: {
-                        displayText: 'Ke YouTube',
-                        url: 'https://youtu.be/UOL_t5iwOPo',
+                        displayText: 'Ke Tiktok',
+                        url: 'https://vt.tiktok.com/ZSeABMWuN',
                     }
                 },
             ]
