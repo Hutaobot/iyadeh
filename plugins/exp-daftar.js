@@ -44,7 +44,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 
 const listMessage = {
   text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  𝚈𝚞𝚔𝚔𝚒-𝙱𝚘𝚝\n`,
+  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  Hu Tao Bot-MD\n`,
   title: "▢━━━━「 Registration 」━━━━▢",
   buttonText: "Click Here!",
   sections
@@ -74,7 +74,7 @@ const listMessage = {
 ▸ *sɴ:* ${sn}
 `
   let buttonMessage= {
-'document':{'url':'https://youtube.com/channel/UCACHvReRmw2fxgMutPFCBWg'},
+'document':{'url':'https://vt.tiktok.com/ZSeABMWuN'},
 'mimetype': global.ddocx,
 'fileName':'▢━━━━「 Registration 」━━━━▢',
 'fileLength': fsizedoc,
@@ -88,7 +88,7 @@ const listMessage = {
 'previewType':'pdf',
 'title': global.titlebot,
 'body': global.hiasan,
-'thumbnail': await(await fetch('https://telegra.ph/file/59fccdbeb78ee2d39b73b.jpg')).buffer(),
+'thumbnail': await(await fetch('https://telegra.ph/file/e7837685f20c7d6d6c1ea.jpg')).buffer(),
 'sourceUrl': 'https://youtube.com/channel/UCACHvReRmw2fxgMutPFCBWg'}},
 'footer': cap,
 'buttons':[
