@@ -53,30 +53,30 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
   let speed = neww - old
     conn.sendHydrated(m.chat, 
     '*––––––『 BOT INFO 』––––––*', 
-`🤖 ɴᴀᴍᴇ: ${_package.name}
-🧩 ᴠᴇʀsɪᴏɴ: ${_package.version}
-📚 ʟɪʙʀᴀʀʏ: ${_package.description}
-👩‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: Fangz
+`🤖 Name: ${_package.name}
+🧩 Version: ${_package.version}
+📚 Library: ${_package.description}
+👩‍💻 Developer: A7 RAFLI [RE]🎭
 
-⏳ ᴜᴩᴛɪᴍᴇ: ${uptime}
-📈 ᴅᴀᴛᴀʙᴀsᴇ: ${totalreg}
+⏳ Uptime: ${uptime}
+📈 Database: ${totalreg}
 
-📅 ᴅᴀᴛᴇ: ${date}
-⌚ ᴛɪᴍᴇ: ${time} ﹙ɢᴍᴛ +5:30﹚
+📅 Date: ${date}
+⌚ Time: ${time} ﹙ɢᴍᴛ +7:00﹚
 
-💻 sᴇʀᴠᴇʀ ɪɴғᴏ :
-⮕ ᴩɪɴɢ: ${speed} ᴍs
-⮕ ʀᴀᴍ: ${format(totalmem() - freemem())} / ${format(totalmem())}
+💻 Server info :
+⮕ Ping: ${speed} ᴍs
+⮕ Ram: ${format(totalmem() - freemem())} / ${format(totalmem())}
 
-💬 ᴡʜᴀᴛsᴀᴩᴩ sᴛᴀᴛᴜs :
+💬 Whatsapp status :
 ⮕ ${groupsIn.length} - Group Chats
 ⮕ ${groupsIn.length} - Groups Joined
 ⮕ ${groupsIn.length - groupsIn.length} - Groups Left
 ⮕ ${chats.length - groupsIn.length} - Personal Chats
 ⮕ ${chats.length} - Total Chats
-`.trim(), './media/botinfo.jpg', 'https://wa.me,6283897011555/', 'ChatOwner', null, null, [
-[`👑ᴏᴡɴᴇʀ`, `${usedPrefix}owner`],
-[`💱ᴅᴏɴᴀᴛᴇ`, `${usedPrefix}donate`]
+`.trim(), './media/botinfo.jpg', 'https://wa.me,6283854551575/', 'ChatOwner', null, null, [
+[`👑Owner`, `${usedPrefix}owner`],
+[`💱Donate`, `${usedPrefix}donate`]
 ], m, {asLocation: true})
 }
 handler.help = ['botinfo']
