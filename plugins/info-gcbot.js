@@ -4,7 +4,7 @@ let botol = global.wm
 let str = `
 ✧─────[ *Group Official* ]─────✧
 🍀 Group 1 :
-https://chat.whatsapp.com/LhuKOwi3SqwGLBPNQCLAFB
+https://chat.whatsapp.com/KRy6wWgQpPP0h1b0TumuJY
 ✧──────────···──────────✧
 `.trim()
 conn.sendButton(m.chat, str, `${botol}`, [['⋮☰ MENU','.menu']],m)
