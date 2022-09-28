@@ -36,7 +36,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 // Kalau gapunya di biarin aja!, atau ga di kasih tanda '-'
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/fangzganz?igshid=YmMyMTA2M2Y=' //Instagram mu
+global.sig = 'https://instagram.com/rafli_editz2' //Instagram mu
 global.sgh = 'https://github.com/RndyCok' //Github mu
 global.swb = '-'
 global.syt = 'https://youtube.com/channel/UCCLaPdoYV2fGVtVDqN3Xuhw' //YT Mu
