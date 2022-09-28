@@ -21,7 +21,7 @@ const sections = [
 	{title: "Speed", rowId: '.speed', description: '╰►SpeedBOT' },
 	{title: "Sewa BOT", rowId: '.sewa', description: '╰►Sewa BOT' },
 	{title: "️Request Fitur", rowId: '.request', description: '╰►Request Fitur BOT' },
-	{title: "Lokasi BOT", rowId: '.loc2', description: '╰►Lokasi Fangz BOT' },
+	{title: "Lokasi BOT", rowId: '.loc2', description: '╰►Lokasi Hu Tao Bot-MD' },
 	{title: "Version Bot", rowId: '.cekversi', description: '╰►Versi BOT' },
 	{title: "Sapa Bot", rowId: '.salken', description: '╰►Menyapa BOT' },
 	]
