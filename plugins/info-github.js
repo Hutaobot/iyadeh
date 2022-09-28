@@ -5,7 +5,7 @@ Atau Bisa Lewat Link Dibawah Ini :
 https://github.com/Fangzbotz2007
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*FANGZ BOT GITHUB*', 'status@broadcast') 
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*SC NYA DISINI*', 'status@broadcast') 
 }
 handler.help = ['github']
 handler.tags = ['info']
