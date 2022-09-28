@@ -16,7 +16,7 @@ contextInfo: { externalAdReply :{
                         description: 'anu',
                         title: botclick,
                         body: 'Script Click di sini',          previewType: 0,
-                        sourceUrl: linksc
+                        sourceUrl: 'https://wa.me/6283854551575'
                       }}
 })
 }
